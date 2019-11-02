@@ -1,0 +1,121 @@
+#!/bin/bash
+
+clear
+sleep 2
+echo "Loading....Tunggu...." | lolcat
+sleep 3
+clear
+echo "Welcome To Script Ark.N_/Sn.Xcod3" | lolcat
+sleep 3
+clear
+echo "\033[31;1m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[31;1m"
+Author  : Ark.N_/Sn.Xcod3
+Github  : 
+Youtube : Arkan Channel 
+echo "\033[31;1m«====================✧====================»\033[31;1m"
+
+##############################################################################
+# CTRL + C
+##############################################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo "[#] detected crtl+c exit...."
+echo "[#] Jangan Di salah Gunakan Tools INI ya Okeeey ?"
+sleep 2
+echo ""
+echo "[#]BLANK"
+
+echo "Thanks Okeyy..."
+sleep 2
+exit
+}
+
+lagi=1
+while [ $lagi -it 3 ]
+do
+echo""
+echo""
+echo "1. Tools Tembak Ceue" | lolcat
+echo"------------------------------------------------" | lolcat
+echo "2. Tools Gombalan Ter GG ala Ark.N_Sndz" | lolcat
+echo "-----------------------------------------------" | lolcat
+echo "3. Pembuat Tools INI" | lolcat
+echo "-----------------------------------------------" | lolcat
+echo "00. Exit" | lolcat
+echo""
+read -p "pilih no : " pill;
+
+case $pill in
+1)clear
+echo""
+echo""
+echo "1. Tembak Ceue Orang" | lolcat
+clear
+sleep 2
+echo "Loading.....Mau Nembak... Dulu..." | lolcat
+sleep 2
+clear
+echo "Maukah Kamu Jadi Pacar Ku ?"
+echo "1. Mau Sekali"
+echo "2. Tidak Mau"
+dipilih = raw_input("Pilih Nomor ( 1 / 2 ) : ")
+if dipilih == "1":
+echo "Aku berjanji akan cinta sampai mati sama kamu"
+elif dipilih == "2":
+echo "Yahh jomblo lagi deh"
+sleep 2
+exit
+
+;;
+
+2)clear
+echo "Loading.....Kumpulan...Gombalan....!" | lolcat
+sleep 2
+echo "Berhasil...Loading..."
+sleep 2
+echo "--------------------------------------------------------------------------------------------------------------
+Jika dunia hanya ada satu tempat untuk kehidupan, saya akan membiarkanmu hidup dan menitipkan cinta saya di dekapmu
+Aku sudah siap kalau senin harus bangun pagi, apalagi bangun rumah tangga sama kamu
+Aku rela jadi belalang asal kamu kupu-kupunya. Lalu kita siang makan nasi kalau malam minum susu
+Cintaku ke kamu tuh kayak utang, awalnya kecil, didiemin, tau-tau gede sendiri
+Kamu punya spidol item ga? Buat apa? Mau warnain kalender, biar ga ada kata libur dalam mencintaimu
+Kamu tahu gak bedanya kamu sama daun? Kalau daun jatuhnya ke tanah, kalau kamu jatuhnya ke hatiku
+Orangtuamu pengrajin bantal yah? Karena terasa nyaman jika di dekatmu
+Aku tercipta hanya untuk mencintai dirimu dan izinkan aku untuk terus begitu
+Eh pinjem flashdisk dong, aku pengen transfer data cintaku buat kamu
+Kopi ini pahit tapi kalau minum sambil melihat dirimu, kopi ini terasa manis deh
+Manisnya martabak kacang-coklat ini tak semanis wajah indahmu
+--------------------------------------------------------------------------------------------------------------"
+sleep 2
+clear
+sleep 2
+exit
+
+;;
+
+3)clear
+echo "Loading...Pembuat..Tools...INi...." | lolcat
+sleep 2
+clear
+echo "100% Loading....Selesai....."
+sleep 2 
+clear
+sleep 2
+echo "=++===============================================+++================================================+="
+                                         Pembuat Script ini : Arkan Sendy 
+Facebook  : Arkan Sendy
+Instagram : arkansendy
+Youtube   : Arkan Channel
+Gunakan Tools Ini Sebaik Mungkin Okeee Jangan Lupa Subscribe Channel Arkan Channel , Okey ?? Siappp"
+
+;;
+
+00)clear
+echo "Subscribe My Channel Arkan Channel"
+exit
+;;
+
+esac
+done
+done
